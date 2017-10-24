@@ -8,7 +8,8 @@ class Figura{
 }
 
 class Czworokat extends Figura{
-  constructor(typ,a,b,c,d){
+  constructor(nazwa,typ,a,b,c,d){
+  super(nazwa);
   this.typ = typ;
   this.a = a;
   this.b = b;
@@ -16,19 +17,17 @@ class Czworokat extends Figura{
   this.d = d;}
   
   getTyp(){
-    return typ;
+    return this.typ;
   }
 }
 
 class Prostokat extends Czworokat{
 
 getPole(){
-  var Pole = this.a*this.b;
-  return Pole;
+  return (this.a*this.b);
 }
 getObw(){
-  var Obw = (this.a+this.b)*2;
-  return Obw;
+  return (this.a+this.b+this.c+this.d);
 }
 }
 

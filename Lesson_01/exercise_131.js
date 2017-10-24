@@ -6,8 +6,8 @@ Figura.prototype.getNazwa = function (){
   return this.nazwa;
 }
 
-function Czworokat(typ,a,b,c,d){
-  Figura.call(this,typ,a,b,c,d);
+function Czworokat(nazwa,typ,a,b,c,d){
+  Figura.call(this,nazwa);
   this.typ = typ;
   this.a = a;
   this.b = b;
@@ -20,20 +20,21 @@ Czworokat.prototype.getTyp = function(){
   return this.typ;
 }
 
-function Prostokat(){
-  Czworokat.call(this);
-}
-Prostokat.prototype.getPole = function(){
-  var Pole = this.a*this.b;
-  return Pole;
-}
-Prostokat.prototype.getObw = function(){
-  var Obw = (this.a+this.b)*2;
-  return Obw;
+function Prostokat(nazwa,typ,a,b,c,d){
+  Czworokat.call(this,nazwa,typ,a,b,c,d);
 }
 
 Prostokat.prototype = Object.create(Czworokat.prototype);
 Prostokat.prototype.constructor = Prostokat;
+
+Prostokat.prototype.getPole = function(){
+  return (this.a*this.b);
+}
+Prostokat.prototype.getObw = function(){
+  return (this.a+this.b+this.c+this.d);
+}
+
+
 
 var Ftest = new Figura('Dawid');
 console.log(Ftest.getNazwa());
