@@ -9,9 +9,3 @@ var text = `Operuję na zdaniu: "Podstawą szczęścia jest wolność, a podstaw
  Druga część zdania po odwróceniu to: ${s.split(',')[1].split('').reverse().join('')}.`
 
 console.log(text);
-
-
-
-
-
-
