@@ -14,3 +14,5 @@ $a=$('nav');
 log($a);
 $a=$('aside');
 log($a);
+$a=('form');
+log($a);
