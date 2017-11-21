@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+ <style>
+  div {
+    position: absolute;
+    background-color: red;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+</style>
+</head>
+
+<body>
+<button id="left">&laquo;</button>
+<button id="right">&raquo;</button>
+<div class="block"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$("#right").on('click',function(){
+  $(".block").animate({"left":"+=50px"},"slow");
+});
+ 
+$("#left").on('click',function(){
+  $(".block").animate({"left":"-=50px"},"slow");
+});
+</script>
+</body>
+</html>
