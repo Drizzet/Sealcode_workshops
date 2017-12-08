@@ -1,0 +1,40 @@
+{
+	"songs": [
+		{
+			"tytul": "taaa",
+			"wykonawca": "waaa",
+			"gatunek": "gaaa",
+			"album": "aaaa",
+			"r.wyd": "111"
+		},
+		{
+			"tytul": "tbbb",
+			"wykonawca": "wbbb",
+			"gatunek": "gbbb",
+			"album": "abbb",
+			"r.wyd": "222"
+		},
+		{
+			"tytul": "tccc",
+			"wykonawca": "wccc",
+			"gatunek": "gccc",
+			"album": "accc",
+			"r.wyd": "333"
+		},
+		{
+			"tytul": "tddd",
+			"wykonawca": "wddd",
+			"gatunek": "gddd",
+			"album": "addd",
+			"r.wyd": "4444"
+		},
+		{
+			"tytul": "teee",
+			"wykonawca": "weee",
+			"gatunek": "geee",
+			"album": "aeee",
+			"r.wyd": "555"
+		},
+	]
+}
+		
