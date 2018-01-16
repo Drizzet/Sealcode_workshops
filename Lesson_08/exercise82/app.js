@@ -35,7 +35,7 @@ function divide(x, y) {
 function debugowanie() {
     console.log("Debugowanie");
     const y = 5;
-    if(y<=3){console.assert(false,"Błąd zmiennej y!");}
+    if(y>3){console.assert(false,"Błąd zmiennej y!");}
 }
 
 window.onload = main;
