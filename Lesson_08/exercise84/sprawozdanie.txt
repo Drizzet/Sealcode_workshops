@@ -1,0 +1,16 @@
+Pierwsza iteracja
+    x=4
+    i=0
+    y=1
+Druga iteracja
+    x=4
+    i=1
+    y=2
+Trzecia iteracja
+    x=4
+    i=2
+    y=3
+Czwarta iteracja
+    x=4
+    i=3
+    y=4
